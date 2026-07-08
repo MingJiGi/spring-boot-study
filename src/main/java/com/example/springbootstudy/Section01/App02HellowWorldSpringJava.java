@@ -13,9 +13,14 @@ public class App02HellowWorldSpringJava {
         System.out.println(context.getBean("name"));
         System.out.println(context.getBean("age"));
         System.out.println(context.getBean("person"));
-        System.out.println(context.getBean("address"));
+        System.out.println(context.getBean("person2MethodCall"));
+        System.out.println(context.getBean("address2"));
+//        System.out.println(context.getBean(Address.class));
+        System.out.println(context.getBean("person3Parmeters"));
+        System.out.println(context.getBean(Person.class));
+        System.out.println(context.getBean(Address.class));
 
-
+        System.out.println(context.getBean("person5qualifier"));
 
     }
 }

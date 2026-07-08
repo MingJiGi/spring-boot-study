@@ -1,5 +1,9 @@
 package com.example.springbootstudy.Section01;
 
+
+import org.springframework.stereotype.Component;
+
+@Component
 public class GameRunner {
 
 
